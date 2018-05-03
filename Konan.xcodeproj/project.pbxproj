@@ -148,6 +148,11 @@
 			isa = PBXProject;
 			attributes = {
 				ORGANIZATIONNAME = theah64;
+				TargetAttributes = {
+					882C7F9FCBCEFC9562476E24 = {
+						DevelopmentTeam = UE99Y49584;
+					};
+				};
 			};
 			buildConfigurationList = 882C7CAB51E3B407D46A9B9B /* Build configuration list for PBXProject "Konan" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -230,6 +235,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UE99Y49584;
 				INFOPLIST_FILE = Konan/Info.plist;
 				KONAN_ENABLE_OPTIMIZATIONS = NO;
 				KONAN_PACKAGE_NAME = Konan;
@@ -247,6 +253,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UE99Y49584;
 				INFOPLIST_FILE = Konan/Info.plist;
 				KONAN_ENABLE_OPTIMIZATIONS = YES;
 				KONAN_PACKAGE_NAME = Konan;
@@ -380,6 +387,7 @@
 				882C763DA117B9C9AD72EC31 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		882C7CAB51E3B407D46A9B9B /* Build configuration list for PBXProject "Konan" */ = {
 			isa = XCConfigurationList;
