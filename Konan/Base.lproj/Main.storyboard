@@ -47,6 +47,13 @@
                                     <action selector="buttonPressed" destination="BYZ-38-t0r" eventType="touchUpInside" id="frh-jo-ppG"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V5p-4v-paC">
+                                <rect key="frame" x="8" y="181" width="359" height="30"/>
+                                <state key="normal" title="My Custom Button"/>
+                                <connections>
+                                    <action selector="getGreetingsPressed" destination="BYZ-38-t0r" eventType="touchUpInside" id="frh-jo-ppr"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -55,9 +62,12 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="2kw-d4-I4d" secondAttribute="trailing" constant="16" id="FoC-HU-FCW"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="bAK-FB-ZSD" secondAttribute="trailing" constant="16" id="JpD-T8-hw0"/>
                             <constraint firstItem="2kw-d4-I4d" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="Kf2-7L-DGi"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="V5p-4v-paC" secondAttribute="trailing" constant="8" id="MoB-kx-wTc"/>
                             <constraint firstItem="QZF-VK-9DI" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="MpX-Cp-IqT"/>
+                            <constraint firstItem="V5p-4v-paC" firstAttribute="top" secondItem="2kw-d4-I4d" secondAttribute="bottom" constant="32" id="NE3-qO-JQx"/>
                             <constraint firstItem="QZF-VK-9DI" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="8" id="Sv3-YE-fik"/>
                             <constraint firstItem="QZF-VK-9DI" firstAttribute="leading" secondItem="bAK-FB-ZSD" secondAttribute="leading" id="cCM-ka-5jf"/>
+                            <constraint firstItem="V5p-4v-paC" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="8" id="qUQ-Nv-IZd"/>
                             <constraint firstItem="2kw-d4-I4d" firstAttribute="top" secondItem="bAK-FB-ZSD" secondAttribute="bottom" constant="8" id="rr0-Op-cnF"/>
                             <constraint firstItem="bAK-FB-ZSD" firstAttribute="top" secondItem="QZF-VK-9DI" secondAttribute="bottom" constant="5" id="sSm-lA-1ff"/>
                         </constraints>

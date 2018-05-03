@@ -14,6 +14,7 @@ import platform.UIKit.*
 class ViewController : UIViewController {
 
     constructor(aDecoder: NSCoder) : super(aDecoder)
+
     override fun initWithCoder(aDecoder: NSCoder) = initBy(ViewController(aDecoder))
 
     @ObjCOutlet
@@ -28,5 +29,10 @@ class ViewController : UIViewController {
     @ObjCAction
     fun buttonPressed() {
         label.text = "Konan says: 'Hello, ${textField.text}!'"
+    }
+
+    @ObjCAction
+    fun getGreetingsPressed() {
+        label.text = "Helloooo ${textField.text}!'"
     }
 }
